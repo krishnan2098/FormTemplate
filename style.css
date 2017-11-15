@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+}
+
+.flex-item-group {
+    padding:2%;
+    height: 150px;
+    width: 400px;
+    -webkit-transition: -webkit-font-size 0.5s;
+    transition: font-size 0.5s, padding 0.5s, height 0.5s, flex-basis 0.5s, width 0.5s;
+}
+
+.flex-item-group:hover {
+    box-shadow: 0 0 10px rgba(160, 171, 165, 0.71);
+    padding:2.5%;
+    /*border: 1px solid black;*/
+    font-size: 16px;
+    height: 175px;
+    width: 450px;
+}
+*/
+}
+.flex-item {
+
+}
+
